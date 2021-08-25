@@ -266,4 +266,6 @@ git branch --track dev origin/dev
 
 ### tracking sur une brache existante
 
+```sh
 git branch (--set-upstream-to=<upstream> | -u <upstream>) [<branchname>]
+```
