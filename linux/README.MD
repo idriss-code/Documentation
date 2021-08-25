@@ -262,10 +262,19 @@ ssh-copy-id -i ~/.ssh/id_rsa.pub -p 22 user@machine
 
 ## RSYNC
 
-exclude .git
+sync dosiier local ver distant
 
 ```bash
 rsync -vaz mon_repo root@ma_machine:/home/user
+
+```
+
+exclude .git
+-C, --cvs-exclude           auto-ignore files in the same way CVS does
+
+```bash
+rsync -vazC mon_repo root@ma_machine:/home/user
+
 ```
 
 ## TCP dump
