@@ -9,11 +9,6 @@ su
 su root
 su -  ##change les variable environnement (lang)
 su - root
-
-##  mémoire vive
-```bash
-free
-free -h:q
 ```
 
 ### creer un utilisateur (redhat)
@@ -67,7 +62,7 @@ fdisk -l /dev/sda
 fdisk /dev/sda
 ```
 
-### creation systemede fichier et formatage
+### creation systeme de fichier et formatage
 
 ```bash
 mkfs.ext3 /dev/sda1
@@ -170,6 +165,13 @@ lsof -p <pid>
 ```bash
 iftop
 netstat -tunlp
+```
+
+## mémoire vive
+
+```bash
+free
+free -h:q
 ```
 
 ## info cpu
