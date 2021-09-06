@@ -312,6 +312,7 @@ reboot
 ```
 
 ## changement charset
+
 apt-get install locales
 dpkg-reconfigure locales
 
