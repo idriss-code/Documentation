@@ -311,6 +311,13 @@ init 6
 reboot
 ```
 
+## changement charset
+apt-get install locales
+dpkg-reconfigure locales
+
+cat /etc/default/locale
+echo $LANG
+
 ## divers
 
 ```bash
