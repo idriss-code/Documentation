@@ -182,6 +182,20 @@ lscpu
 cat /proc/cpuinfo
 ```
 
+## info version linux
+
+```bash
+uname -a
+cat /etc/debian_version 
+```
+
+## info command
+
+```bash
+type ls
+which ls
+```
+
 ## find
 
 ```bash
@@ -311,6 +325,16 @@ init 6
 reboot
 ```
 
+## variable et environnement
+
+```bash
+env #affiche les variable d'environnement
+set #affiche les variable
+myvar=hello
+export myvar
+unset myvar #supprime 
+```
+
 ## changement charset
 
 apt-get install locales
@@ -336,8 +360,7 @@ find /bin/ -name "*" >commande 2>/dev/null
 find /bin/ -name "*" 2>/dev/null | tee commande | less
 
 alias  #affiche les alias
-env  #affiche les variable d'env
-set | less #affiche les variable
+
 echo mon adresse ip est $(ip a | grep 192.168.2 | cut -c10-21)
 ip a  #ifconfig
 
