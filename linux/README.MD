@@ -326,7 +326,7 @@ csh -bvx monscript.sh
 
 ```
 
-## extinction reeboot
+## extinction reboot
 
 ```bash
 init 0
