@@ -131,6 +131,8 @@ df -h
 mount -a
 ```
 
+------------------------------------------------------------------------------------
+
 ## surveillance processus
 
 ### voir les processus de tous les utilisateurs
@@ -159,6 +161,14 @@ fuser -k /HD1
 ```bash
 lsof -p <pid>
 ```
+
+### recupération environnement d'un process
+
+```bash
+cat /proc/$PID/environ | tr -s "\0" "\n"
+```
+
+------------------------------------------------------------------------------------
 
 ## surveillance reseau
 
@@ -249,6 +259,8 @@ core.ftm_oftp.13413.sv1.hubmaster.net.1615543194
 cat /proc/sys/kernel/core_pattern
 core
 ```
+
+------------------------------------------------------------------------------------
 
 ## TAR
 
@@ -343,6 +355,20 @@ dpkg-reconfigure locales
 cat /etc/default/locale
 echo $LANG
 
+## affichage specifique
+
+### hexadecimal
+
+```bash
+ls -l | od -tx1c
+```
+
+### 80 collonne
+
+```bash
+fold test.txt
+```
+
 ## divers
 
 ```bash
@@ -369,8 +395,4 @@ PATH=$PATH:. #ajoute au PATH le rep courant
 
 ps -ef  #affiche les processus
 file fichier #donne le type de fichier
-```
-
-```bash
-ls -l | od -tx1c
 ```
