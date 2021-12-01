@@ -349,11 +349,13 @@ unset myvar #supprime
 
 ## changement charset
 
+```bash
 apt-get install locales
 dpkg-reconfigure locales
 
 cat /etc/default/locale
 echo $LANG
+```
 
 ## affichage specifique
 
