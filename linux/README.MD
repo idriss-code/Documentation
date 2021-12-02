@@ -109,8 +109,8 @@ lgextend -L +10G -r /dev/monGroupeDeDisk1/mesVideos1
 
 ```bash
 more /proc/partitions
-pvcreate /dev/sdb
-vgcreate lvm /dev/sdb
+pvcreate /dev/sdb1
+vgcreate lvm /dev/sdb1
 lvcreate -l 100%FREE -n data lvm
 mkfs.xfs /dev/lvm/data
 cd /
