@@ -4,7 +4,7 @@
 
 ### préparation
 
-git config --global user.email "benlamouche@hotmail.fr"
+git config --global user.email "ben@mail.fr"
 git config --global user.name "benlamouche"
 
 ### voir autre commande
