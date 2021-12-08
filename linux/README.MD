@@ -266,12 +266,12 @@ core
 
 ```bash
 tar -cvzf /tmp/nom_archive.tgz --exclude="*.log" --exclude="core*" ./*
-```
 
-### follow symlinks
-
-```bash
+# on copie les liens symbolique
 tar -cvzf archive.tgz rep
+
+# on copie les fichier poité par les liens symbolique: -h
+tar -cvzhf archive.tgz rep
 
 tar -xvzf .tgz
 
