@@ -170,6 +170,12 @@ cat /proc/$PID/environ | tr -s "\0" "\n"
 
 ------------------------------------------------------------------------------------
 
+## info general
+
+```bash
+neofetch
+```
+
 ## surveillance reseau
 
 ```bash
