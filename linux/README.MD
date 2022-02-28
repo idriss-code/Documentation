@@ -140,6 +140,7 @@ mount -a
 ```bash
 ps -faux
 htop
+atop
 ps -edf
 pstree
 ```
