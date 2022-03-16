@@ -370,6 +370,7 @@ echo $LANG
 
 ```bash
 ls -l | od -tx1c
+xxd file.txt
 ```
 
 ### 80 collonne
