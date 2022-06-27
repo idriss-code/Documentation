@@ -27,13 +27,13 @@ git status
 
 ### ajouter des fichier avant commit
 
-git add
-git add --all
+git add  
+git add --all  
 git add *.html
 
 ### commit
 
-git commit
+git commit  
 git commit -m "message"
 
 ### commit + add
@@ -76,13 +76,13 @@ git diff
 
 ### commit impossible
 
-git checkout e3299f8
+git checkout e3299f8  
 git checkout master
 
 ## RETOUR AR 1 FICHIER + COMMIT
 
-git checkout e3299f8 index.html
-git commit
+git checkout e3299f8 index.html  
+git commit  
 git checkout master index.html
 
 ### retour et ajout à l'historique
@@ -237,19 +237,19 @@ git branch -r
 
 ## PUSH
 
-git push nom_remote nom_branch
-git push --all nom_remote
+git push nom_remote nom_branch  
+git push --all nom_remote  
 git push nom_remote --delete nom_branch
 
 ## PULL
 
-git pull nom_remote nom_branch
-git pull --rebase nom_remote nom_branch
+git pull nom_remote nom_branch  
+git pull --rebase nom_remote nom_branch  
 git config --global branch.autosetuprebase always
 
 ## FETCH + MERGE
 
-git fetch
+git fetch  
 git merge
 
 ## CLONE
