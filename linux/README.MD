@@ -175,6 +175,7 @@ cat /proc/$PID/environ | tr -s "\0" "\n"
 
 ```bash
 neofetch
+lshw
 ```
 
 ## surveillance reseau
