@@ -60,6 +60,7 @@ fdisk -l /dev/sda
 
 ```bash
 fdisk /dev/sda
+partx ## notifie le kernel
 ```
 
 ### creation systeme de fichier et formatage
