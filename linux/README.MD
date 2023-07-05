@@ -56,7 +56,7 @@ more /proc/partitions
 fdisk -l /dev/sda
 ```
 
-### creation partion
+### creation partition
 
 ```bash
 fdisk /dev/sda
@@ -201,6 +201,13 @@ lscpu
 cat /proc/cpuinfo
 ```
 
+
+## info IO (HDD SSD)
+
+```bash
+iotop
+```
+
 ## info version linux
 
 ```bash
@@ -223,7 +230,7 @@ find ./ -name "core*" -mtime -1
 
 ------------------------------------------------------------------------------------
 
-## C compil
+## compilation C
 
 ### gdb
 
@@ -297,7 +304,7 @@ ssh-copy-id -i ~/.ssh/id_rsa.pub -p 22 user@machine
 
 ## RSYNC
 
-sync dosiier local ver distant
+sync dossier local vers distant
 
 ```bash
 rsync -vaz mon_repo root@ma_machine:/home/user
@@ -305,6 +312,7 @@ rsync -vaz mon_repo root@ma_machine:/home/user
 ```
 
 exclude .git
+
 -C, --cvs-exclude           auto-ignore files in the same way CVS does
 
 ```bash
@@ -375,7 +383,7 @@ ls -l | od -tx1c
 xxd file.txt
 ```
 
-### 80 collonne
+### affichage en 80 collonnes
 
 ```bash
 fold test.txt
