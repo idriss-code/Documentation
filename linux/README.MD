@@ -1,5 +1,13 @@
 # Admin linux
 
+## hostname
+
+```bash
+sudo vim /etc/hostname
+sudo vim motd
+sudo reboot
+```
+
 ## user
 
 ### changement de user
