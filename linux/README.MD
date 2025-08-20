@@ -4,7 +4,7 @@
 
 ```bash
 sudo vim /etc/hostname
-sudo vim motd
+sudo vim /etc/motd
 sudo reboot
 ```
 
